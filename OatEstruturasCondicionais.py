@@ -25,5 +25,5 @@ def calc_reajust(sal_atual):
     print('---------------------------------------------------')
     print(f"Valor depois do reajuste, descontado a inflação: R$ {aumento_valor:.2f}")
 
-    salario_atual = float(input("Digite o salário atual do colaborador: "))
+    salario_atual = float(input("Digite o salario atual: "))
     calc_reajust(salario_atual)
